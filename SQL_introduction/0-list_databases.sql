@@ -1,2 +1,2 @@
---This command show the list of Databases
+-- This command shows the list of Databases
 SHOW DATABASES;
