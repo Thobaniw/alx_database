@@ -1,2 +1,3 @@
 -- This command show the list of selected database
-SELECT * FROM mysql;
+USE hbtn_test_db_0;
+SHOW TABLES;
