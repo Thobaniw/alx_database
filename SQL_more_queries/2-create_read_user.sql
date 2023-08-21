@@ -11,6 +11,11 @@ END IF;
 
 -- Display grants for user_0d_2
 SELECT 'Grants for user_0d_2@localhost';
-SELECT 'GRANT USAGE ON *.* TO `user_0d_2`@`localhost`';
-SELECT 'GRANT SELECT ON `hbtn_0d_2`.* TO `user_0d_2`@`localhost`';
+IF @user_exists = 0 THEN
+    SELECT "GRANT USAGE ON *.* TO `user_0d_2`@`localhost`";
+ELSE
+    SELECT "GRANT USAGE ON *.* TO `user_0d_2`@`localhost`";
+    SELECT "GRANT SELECT ON `hbtn_0d_2`.* TO `user_0d_2`@`localhost`";
+END IF;
+
 
