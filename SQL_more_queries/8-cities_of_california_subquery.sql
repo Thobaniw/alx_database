@@ -1,4 +1,4 @@
--- This command create a list of cities on the hbtn_0d_usa Database
+
 -- Use the database
 USE hbtn_0d_usa;
 
